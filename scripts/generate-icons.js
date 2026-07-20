@@ -1,6 +1,6 @@
 /**
  * 图标预处理脚本
- * 在构建时自动扫描 Svelte 组件中使用的图标，并生成内联 SVG 数据
+ * 在构建时自动扫描 Svelte 组件和 Astro 文件中使用的图标，并生成内联 SVG 数据
  *
  * 使用方法：node scripts/generate-icons.js
  */
@@ -33,7 +33,7 @@ const iconSetCache = new Map();
 /**
  * 递归获取目录下所有文件
  */
-function getAllFiles(dir, extensions = [".svelte"]) {
+function getAllFiles(dir, extensions = [".svelte", ".astro"]) {
 	const files = [];
 
 	function walk(currentDir) {
@@ -65,10 +65,10 @@ function extractIconNames(content) {
 
 	// 匹配各种图标使用模式
 	const patterns = [
-		// icon="xxx:yyy" 或 icon='xxx:yyy'
-		/icon=["']([a-z0-9-]+:[a-z0-9-]+)["']/gi,
-		// icon={`xxx:yyy`}
-		/icon=\{[`"']([a-z0-9-]+:[a-z0-9-]+)[`"']\}/gi,
+		// icon="xxx:yyy" 或 icon='xxx:yyy' 或 name="xxx:yyy" 或 name='xxx:yyy'
+		/(?:icon|name)=["']([a-z0-9-]+:[a-z0-9-]+)["']/gi,
+		// icon={`xxx:yyy`} 或 name={`xxx:yyy`}
+		/(?:icon|name)=\{[`"']([a-z0-9-]+:[a-z0-9-]+)[`"']\}/gi,
 		// getIconSvg("xxx:yyy") 或 getIconSvg('xxx:yyy')
 		/getIconSvg\(["']([a-z0-9-]+:[a-z0-9-]+)["']\)/gi,
 		// hasIcon("xxx:yyy")
