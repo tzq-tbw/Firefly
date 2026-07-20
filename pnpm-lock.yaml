@@ -110,6 +110,9 @@ importers:
       katex:
         specifier: ^0.17.0
         version: 0.17.0
+      l2d:
+        specifier: ^2.1.1
+        version: 2.1.1
       l2d-widget:
         specifier: ^0.1.0
         version: 0.1.0
@@ -3862,6 +3865,9 @@ packages:
 
   l2d-widget@0.1.0:
     resolution: {integrity: sha512-vnEZeom+u/GlcZJeZt1gsigXIsGCHzW+WAWRqv93gG5MqVSRg749drD34mMXhSr48jvrUW+HvufWxURXg93jXQ==}
+
+  l2d@2.1.1:
+    resolution: {integrity: sha512-Q9Rp3uDPiZyS4SJZ/RJ+tuR1YQ75gKhGeS2gZNCO6KvydDB6okPQJk+zsKt8KyJ6Y5g0okVMtj3Sisjxr35ptA==}
 
   launder@1.7.1:
     resolution: {integrity: sha512-mU6WRz5EusL9ZZuiZ5SO4Y6C0P9PAUR9iwdb6bzj4KDihm28DiHFw+/yk9DBH4f+Pv1wuzQ4e2jV3oQ7mkIqvw==}
@@ -10126,6 +10132,8 @@ snapshots:
   kolorist@1.8.0: {}
 
   l2d-widget@0.1.0: {}
+
+  l2d@2.1.1: {}
 
   launder@1.7.1:
     dependencies:

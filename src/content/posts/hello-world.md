@@ -1,15 +1,10 @@
 ---
-title: Hello World
+title: 第一个文章
 published: 2026-07-21
-description: 这是一篇测试文章，验证部署是否正常。
-tags: ["测试"]
-category: 测试
+description: 从今天开始纪录我的日常。
+tags: ["生活"]
+category: 生活
 ---
+这篇文章就水一下，期待我的更新吧
 
-## 测试文章
-
-如果你看到这篇文章，说明博客部署已经恢复正常 🎉
-
-```js
-console.log("Hello, Firefly!")
 ```
