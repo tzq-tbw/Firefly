@@ -2,7 +2,7 @@
 title: 正式与obsidian联动
 published: 2026-07-21
 description: 用obsidian来写博客
-image: ./firefly1.avif
+image: ./images/firefly1.avif
 tags:
   - 标签
 category: 分类
