@@ -1,6 +1,6 @@
 ---
 title: 正式与obsidian联动
-date: 2026-07-21
+published: 2026-07-21
 description: 用obsidian来写博客
 image: ./cover.jpg
 tags:
