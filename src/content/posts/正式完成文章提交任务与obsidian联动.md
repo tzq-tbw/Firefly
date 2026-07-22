@@ -4,8 +4,8 @@ published: 2026-07-21
 description: 用obsidian来写博客
 image: ./images/firefly1.avif
 tags:
-  - 标签
-category: 分类
+  - 生活
+category: 生活
 draft: false
 author: 田大帅
 ---
