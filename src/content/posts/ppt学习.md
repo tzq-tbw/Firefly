@@ -6,7 +6,7 @@ tags:
   - 学习
 category: 学习
 image: ./images/firefly3.avif
-draft:
+draft: false
 author: 图荼
 ---
 今天找到了一个好用的PPTskill![shuashuskill.png](https://tian.tiandashuai.com/file/wenzhang/1784822272833_shuashuskill.png)只需一句话就可以生成可编辑，顶级设计工程师的ui渲染PPT或动画，它的功能还有很多，这里只介绍PPT的成品。
