@@ -6,7 +6,7 @@ tags:
   - 生活
 category: 生活
 image: ./images/firefly3.avif
-draft:
+draft: false
 author: 田大帅
 ---
 #前言
