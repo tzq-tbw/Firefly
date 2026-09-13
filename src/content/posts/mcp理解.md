@@ -6,7 +6,7 @@ tags:
   - 学习
 category: 学习
 image: ./images/firefly1.avif
-draft:
+draft: false
 author: 田大帅
 ---
 ---
